@@ -5,4 +5,7 @@ from django.conf.urls.defaults import *
 
 def base(request):
     return render_to_response('base.html')
-    #return HttpResponseRedirect('/gallery/')
+    #return HttpResponseRedirect('')
+    
+def about(request):
+    return render_to_response('about.html')

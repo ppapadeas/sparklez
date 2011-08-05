@@ -1,9 +1,3 @@
-body {
-    background: #97692d;
-    background: -moz-radial-gradient(circle, #ca8c3d, #714e21);
-    text-align:center;
-}
-
 #tagline {
     color: white;
     font-family: "Over the Rainbow","Trebuchet MS",Lucida Grande,sans-serif;
@@ -12,4 +6,4 @@ body {
     padding-top: 40px;
     text-shadow: 2px 2px 0 #000;
 }
-	
+

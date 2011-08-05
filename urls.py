@@ -12,6 +12,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^$', views.base),
+    (r'^about/', views.about),
 
     #admin
     (r'^admin/password_reset/$', 'django.contrib.auth.views.password_reset'),
